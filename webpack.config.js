@@ -41,7 +41,9 @@ module.exports = {
       name: "leftNavigation",
       filename: "remoteEntry.js",
       remotes: {},
-      exposes: {},
+      exposes: {
+        "./LeftNav": "./src/App.js"
+      },
       shared: {
         "react": {
           singleton: true,
