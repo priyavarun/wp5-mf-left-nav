@@ -12,6 +12,7 @@ import {
   ButtonGroup,
   Button,
 } from "@mui/material";
+import "./App.scss";
 
 export default function () {
   return (
